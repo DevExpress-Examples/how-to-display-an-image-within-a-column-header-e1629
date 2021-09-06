@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXGrid_DisplayHeaderImage", "DXGrid_DisplayHeaderImage\DXGrid_DisplayHeaderImage.csproj", "{2B93AB0E-CE33-4CE1-9BFB-1DA1AE571D59}"
 EndProject
 Global
