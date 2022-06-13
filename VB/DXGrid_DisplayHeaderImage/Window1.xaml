@@ -1,27 +1,22 @@
-<Window x:Class="DXGrid_DisplayHeaderImage.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" Title="Window1" Height="365" Width="598">
+<Window x:Class="DXGrid_DisplayHeaderImage.Window1" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+        Title="Window1" Height="365" Width="598">
     <Window.Resources>
         <DataTemplate x:Key="productHeader">
             <StackPanel Orientation="Horizontal">
-                <Image Source="Product.png" Stretch="None" />
-                <TextBlock Margin="3,0,0,0" Text="{Binding}" Foreground="WhiteSmoke" FontWeight="Bold" />
+                <Image Source="Product.png"/>
+                <TextBlock Margin="4,0,0,0" Text="{Binding}" Foreground="Green" FontWeight="Bold" />
             </StackPanel>
         </DataTemplate>
     </Window.Resources>
-    <Grid>
-        <dxg:GridControl x:Name="grid">
-            <dxg:GridControl.Columns>
-                <dxg:GridColumn FieldName="ProductName" HeaderTemplate="{StaticResource productHeader}">
-                    Product</dxg:GridColumn>
-                <dxg:GridColumn FieldName="UnitPrice">Unit Price
-                    <dxg:GridColumn.EditSettings>
-                        <dxe:SpinEditSettings DisplayFormat="c2" MinValue="1" MaxValue="999" />
-                    </dxg:GridColumn.EditSettings>
-                </dxg:GridColumn>
-                <dxg:GridColumn FieldName="UnitsOnOrder">Units On Order</dxg:GridColumn>
-            </dxg:GridControl.Columns>
-            <dxg:GridControl.View>
-                <dxg:TableView AutoWidth="True" />
-            </dxg:GridControl.View>
-        </dxg:GridControl>
-    </Grid>
+    <dxg:GridControl x:Name="grid">
+        <dxg:GridColumn FieldName="ProductName" HeaderTemplate="{StaticResource productHeader}"/>
+        <dxg:GridColumn FieldName="UnitPrice"/>
+        <dxg:GridColumn FieldName="UnitsOnOrder"/>
+        <dxg:GridControl.View>
+            <dxg:TableView AutoWidth="True"/>
+        </dxg:GridControl.View>
+    </dxg:GridControl>
 </Window>
