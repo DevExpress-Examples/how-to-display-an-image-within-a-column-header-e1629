@@ -1,16 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.ObjectModel;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace DXGrid_DisplayHeaderImage {
     public partial class Window1 : Window {
@@ -20,8 +9,8 @@ namespace DXGrid_DisplayHeaderImage {
         }
     }
     public class Products {
-        public static List<Product> GetData() {
-            List<Product> data = new List<Product>();
+        public static ObservableCollection<Product> GetData() {
+            ObservableCollection<Product> data = new ObservableCollection<Product>();
             data.Add(new Product() { ProductName = "Chai",
                 UnitPrice = 18, UnitsOnOrder = 10 });
             data.Add(new Product() { ProductName = "Ipoh Coffee",
