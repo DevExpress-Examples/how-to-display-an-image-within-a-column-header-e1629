@@ -29,7 +29,7 @@ This example demonstrates how to display an image within the **Product Name** co
 * [WPF Data Grid - Display an Icon in an Unbound Column Based on the Value in a Bound Column](https://github.com/DevExpress-Examples/how-to-display-an-icon-in-an-unbound-column-based-on-the-value-stored-in-a-bound-column-e1266)
 * [WPF Data Grid - Display a Check Box in a Column Header](https://github.com/DevExpress-Examples/how-to-display-a-check-box-within-column-headers-e1517)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-display-an-image-within-a-column-header-e1629&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-display-an-image-within-a-column-header-e1629&~~~was_helpful=no)
 
